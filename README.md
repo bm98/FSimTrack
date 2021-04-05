@@ -13,6 +13,11 @@ https://github.com/bm98/FSimPngTiles
 
 # Flight Sim Tracker (.Net 4.7.2)
 
+Tracked Aircraft with Lat,Lon,Alt,Groundspeed and Vertical Speed as shown in the mapping web interface (Docker appliance)   
+
+![FSimTrack Utility](https://raw.githubusercontent.com/bm98/FSimTrack/main/doc/FSimTrack-Mapping2.jpg "Mapping view - about to start")
+
+
 ## FlightSim Live Data Source
 Connects to the FlightSim, polls essential aircraft tracking data 
 NOTE: Right now only an interface with MSFS2020 is implemented, an XPlane 11 interface is still in development.
@@ -20,6 +25,8 @@ NOTE: Right now only an interface with MSFS2020 is implemented, an XPlane 11 int
 ## WebRequest Client
 Interfaces the mapping webserver found as Docker image  bm98ch/fsimpngtiles   
 Issues tracking get requests to the web server with LAT,LON,ALT,THDG,GS,VS
+
+![FSimTrack Utility](https://raw.githubusercontent.com/bm98/FSimTrack/main/doc/FSimTrack-GUI.jpg "GUI")
 
 -----
 
